@@ -3,7 +3,7 @@
 
 const array = []
 
-for(let num = 1; array.length < 4; num++){
+for (let num = 1; array.length < 4; num++) {
     perfeito(num)
 }
 
@@ -12,15 +12,15 @@ function perfeito(num) {
     let soma = 0;
     for (let i = 1; i < num; i++) {
         if (num % i == 0) {
-        soma += i
+            soma += i
         }
     }
-    if (soma == num) {                
+    if (soma == num) {
         array.push(num)
     }
-        
+
 }
 
-for(let index = 0; index < array.length; index++){
+for (let index = 0; index < array.length; index++) {
     console.log(array[index])
 }

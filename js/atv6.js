@@ -4,17 +4,17 @@ Ex:
 Entrada: Édson, Marcelo, Letícia, Ju, Thobias
 Saída: Thobias, Ju, Letícia, Marcelo, Édson */
 
-        
+
 let nomes = [];
 let nome = '';
 
-function addNome(nome){
+function addNome(nome) {
     nomes.push(nome);
 }
 
-while(nomes.length < 5){
+while (nomes.length < 5) {
     nome = prompt("Digite um nome: ");
     addNome(nome);
 }
- console.log(nomes);
- console.log(nomes.reverse)
+console.log(nomes);
+console.log(nomes.reverse)
