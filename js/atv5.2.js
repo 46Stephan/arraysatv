@@ -14,8 +14,8 @@ function encontrarNumero(lista, numero) {
 
 encontrarNumero(numeros, numeroEncontrar);
 
-/*if (taNaLista) {
+if (taNaLista) {
     alert(`O número ${numeroEncontrar} está na lista!`);
 } else {
     alert(`O número ${numeroEncontrar} não está na lista.`);
-}*/
+}
